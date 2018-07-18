@@ -1,0 +1,567 @@
+body{
+  background-color: #f4f4f4;
+  font-family: Ariel, Halvatica, sans-serif;
+}
+/* Global Styles */
+.container{
+  width: 80%;
+  padding: 10;
+  margin: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.btnsubmit{
+  height: 34px;
+  background: coral;
+  border: none;
+  color: #fff;
+  width: 100px;
+
+}
+.btnsubmit:hover{
+  background:coral;
+  opacity: 0.5;
+  color: #000;
+}
+.clear{
+  clear: both;
+}
+a{
+  text-decoration: none;
+}
+label span{
+  color: red;
+}
+/*Global styling ends here*/
+
+/* header section*/
+header{
+  background:#103f42;
+  padding: 20px 20px 20px 20px;
+  overflow: hidden;
+
+}
+header .branding{
+  float: left;
+}
+header .branding h1{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+header .branding span{
+  color: coral;
+  margin: 0;
+  padding: 0;
+}
+header .social {
+  float: right;
+  color:#fff;
+  padding: 0;
+  margin-top: 10px;
+
+
+}
+
+header .social ul{
+  padding: 0;
+  margin: 0;
+}
+header .social li{
+  display: inline;
+  color: #fff;
+
+
+}
+header .social li img{
+  width: 50px;
+  height: 50px;
+  padding:0;
+  margin: 0;
+
+}
+/*Navigation menu*/
+nav{
+  background-color: #008080;
+  padding: 15px;
+  border-bottom: coral 3px solid;
+}
+nav .navbar ul{
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav .navbar li{
+  display: inline;
+
+
+}
+nav .navbar a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  padding-right: 20px;
+  padding-right: 20px;
+
+}
+.navbar a:hover{
+  color: coral;
+}
+navbar a:active{
+  color: coral;
+}
+/*showcare or slide show section*/
+#showcase{
+
+  background: url(../rooms/bed.jpg) no-repeat;
+  background-position: -1320px -1390px;
+  min-height: 400px;
+  padding: 20px;
+  border-bottom: coral 3px solid;
+ 
+
+}
+#showcase h2{
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 3em;
+
+}
+#showcase p{
+  color:#fff;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  width: 60%;
+  margin:auto;
+}
+
+/*Reservation form Section*/
+.reserv-form{
+  background-color: #008080;
+  padding: 15px;
+  margin-bottom: 60px;
+}
+
+.reserv-form select{
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  -o-appearance:none;
+  -ms-appearance:none;
+  appearance: none;
+  border-radius:0;
+  background:url('/icons/down.png') no-repeat 98% center;
+  background-color: #fff;
+  border: 1px solid #CCC;
+  padding: 4px;
+  height: 34px;
+  width: 20%;
+
+  
+  
+}
+.reserv-form input[type="date"]{
+  padding: 4px;
+  height: 21px;
+  width: 20%;
+}
+.reservation{
+  margin: 40px auto;
+  padding:  20px;
+  width: 80%;
+  background-color: #fff;
+ 
+}
+.reservation h2{
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+.reservation::after{
+  content: "";
+  display:block;
+  clear: both;
+}
+.reservation .form-wraper{
+  width: 50%;
+  float: left;
+  
+}
+.reservation .main-reserv-form{
+  padding-bottom: 10px;
+  margin-left: 20px; 
+ 
+
+}
+.reservation .main-reserv-form label{
+  display: block;
+}
+.reservation .main-reserv-form input{
+  width: 90%;
+  height: 30px;
+  margin:10px 0;
+}
+
+.reservation .main-reserv-form select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance:none;
+  appearance: none;
+  width: 92%;
+  height: 35px;
+  margin:15px 0;
+  background-color: #fff;
+  border-radius: 0;
+  border:1px #CCC solid;
+  background: url('/icons/down.png')no-repeat 98% center;
+}
+.reservation .main-reserv-form input[type="email"]{
+  width: 88%;
+  height: 25px;
+  margin: 10px 0;
+}
+.reserv-booking{
+  float: right;
+  margin-right: 30px;
+}
+
+
+
+
+/*Rooms in home page section*/
+.featured-section{
+  margin-top: 20px;
+}
+.featured-section .featured-box{
+  float: left;
+  width: 30%;
+  text-align:center;
+  margin-right: 10px;
+  padding-top: 10px;
+  background: #fff;
+  margin-bottom: 50px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.featured-box:hover{
+  background-color: #fff;
+  opacity: 0.5;
+}
+.featured-box img{
+  width: 90%;
+}
+.featured-section .featured-box h3{
+  text-transform: uppercase;
+}
+.featured-box p{
+  font-size: 15px;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+/*Contact form section*/
+.contact-section{
+  padding: 0;
+  margin:0;
+}
+.contact-section h3{
+  text-transform: uppercase;
+}
+.contact-section .contact-info{
+  background: #008080;
+  float: left;
+  color: #fff;
+  padding: 10px;
+  width: 40%;
+  min-height: 250px;
+  margin-right: 10px;
+  letter-spacing: 2px;
+}
+.contact-info img{
+  width: 80px;
+  margin-left: 40%;
+}
+.contact-section .contact-info li{
+  list-style: none;
+  padding: 10px;
+  margin-left: 20%;
+}
+
+.contact-section.contact-form{
+  padding: 10px;
+  width: 60%;
+}
+
+.contact-section .contact-form input[type="text"],[type="email"]{
+  padding: 5px;
+  height: 25px;
+  width: 50%;
+}
+.contact-section .contact-form textarea{
+  padding: 5px;
+  border: 1px solid #CCC;
+  height: 150px;
+  width: 50%;
+}
+.contact-section .contact-form .subbtn{
+  float: right;
+  margin-bottom: 100px;
+  margin-right: 60px;
+}
+
+.main-contact-form{
+  width:50%;
+  margin: 40px auto;
+
+}
+.main-contact-form h2{
+  text-transform: uppercase;
+}
+.main-contact-form .cont-form{
+  display: block;
+  border-bottom: 0.7px #b5b5b5 solid;
+  background-color: #fff;
+  padding: 10px;
+  color: #666;
+  font-size:0.9rem;
+  line-height: 1.3rem;
+  cursor: pointer;
+}
+.main-contact-form .cont-form label{
+  display: block;
+}
+.main-contact-form select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance:none;
+  appearance: none;
+  width: 100%;
+  height:25px;
+  background-color:#fff;
+  margin-bottom:10px;
+  border: none;
+  font-size:0.9rem;
+  line-height: 1.3rem;
+  box-sizing: border-box;
+  padding: 0;
+  color:#666;
+  background: url('/icons/down.png') no-repeat 100% center;
+  
+}
+
+.main-contact-form input{
+  width: 100%;
+  height:25px;
+  border: none;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.main-contact-form input[type="email"]{
+  width:100;
+  height:20px;
+  box-sizing: border-box;
+  border:none;
+}
+.main-contact-form textarea{
+  width:100%;
+  box-sizing: border-box;
+  height:300px;
+  border: none;
+}
+.main-contact-form input[type="submit"]{
+  width: 100%;
+  box-sizing: border-box;
+  height: 34px;
+  background: coral;
+  border: none;
+  color: #fff;
+  padding: 0;
+  margin: 40px 0 0 0;
+  font-size: 18px;
+}
+.main-contact-form input[type="submit"]:hover{
+  color: #000;
+  background:coral;
+  opacity: 0.7;
+}
+
+/*Rooms Section*/
+.hrooms{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+.rooms-box{
+  align-content: center;
+  text-align: center;
+  margin: 10px;
+  background: #fff;
+  box-sizing: border-box;
+}
+.rooms-box:hover{
+  background-color: #fff;
+  opacity: 0.5;
+}
+.rooms-box img{
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+
+}
+.rooms-box img:hover{
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+/*Footer Section*/
+.footer{
+  background-color: #103f42;
+  padding: 20px;
+  color: #fff;
+  text-align: right;
+  padding-right: 60px;
+}
+.footer span{
+  margin-right: 70px;
+}
+
+/* Tablet Version */
+@media(max-width:1000px){
+  .container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+.reserv-form .btnsubmit{
+  width: 60px;
+  }
+
+  
+}
+/*Media Query end here*/
+
+
+/* Tablet Version */
+@media(max-width:750px){
+  .container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+.reserv-form .btnsubmit{
+  width: 60px;
+  }
+  .hrooms{
+    margin: 50px auto 10px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .main-contact-form{
+    width:60%;
+    margin: 40px auto;
+  
+  }
+  
+}
+
+
+/* mobile version */
+@media(max-width:500px){
+  .container{
+    width: 100%;
+  }
+  .reserv-form{
+    position: relative;
+    bottom: 70px;
+    background: none;
+  }
+  .reserv-form select{
+    float: right;
+    display: block;
+    width: 313px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  .reserv-form input[type="date"]{
+      float: right;
+      display: block;
+      width: 300px;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+  }
+  .reserv-form button[type="submit"]{
+    float: right;
+      display: block;
+      width: 313px;
+
+  }
+  .featured-section .featured-box{
+    float: none;
+    width: 100%;
+  }
+  .contact-section .contact-info{
+    float:none;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .contact-section .contact-form input[type="text"],[type="email"]{
+    width: 90%;
+    margin: auto;
+    margin-left: 10px;
+
+  }
+  .contact-section .contact-form textArea{ 
+    width: 90%;
+    margin: auto;
+    margin-left: 10px;
+  }
+  .contact-section .contact-form .subbtn{
+    float: none;
+    margin-bottom: 100px;
+   
+    width: 100%;
+  }
+  .contact-section .contact-form button[type="submit"]{
+    float: none;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    width: 90%;
+  }
+
+  .hrooms{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    
+  }
+  
+  .reservation .form-wraper{
+    width: 100%;
+    float: none;
+    
+  }
+  .main-contact-form{
+    width:90%;
+    margin: 40px auto;
+  
+  }
+}
